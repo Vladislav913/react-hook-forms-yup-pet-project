@@ -1,13 +1,14 @@
+import React from 'react';
+import CustomersPage from './pages/customer';
+import ThemeProvider from '@mui/material/styles/ThemeProvider';
+import { createdTheme } from './theme';
 import './App.css';
-import CustomersPage from "./pages/customer";
-import React from "react";
-
 
 function App() {
   return (
-    <div className="App">
-        <CustomersPage>
-    </div>
+    <ThemeProvider theme={createdTheme}>
+      <CustomersPage />
+    </ThemeProvider>
   );
 }
 

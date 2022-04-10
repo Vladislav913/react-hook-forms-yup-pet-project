@@ -1,11 +1,37 @@
 .label {
-    font-size: 12px;
-    line-height: 16px;
-    margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
 }
 
 .box {
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  padding: 40px;
+  border-top: 1px solid #edeff1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  color: red;
+}
+
+.sub-title {
+  font-size: 14px;
+  line-height: 28px;
+  color: #5a607d;
+  margin: 0 0 16px 0;
+}
+
+.placeholder {
+  color: #cfd6de;
 }
