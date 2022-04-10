@@ -11,8 +11,7 @@ export const InputField = ({
   isFocus,
   fullWidth,
 }) => {
-  console.log(name);
-  console.log(error?.message);
+
   return (
     <TextField
       name={name}

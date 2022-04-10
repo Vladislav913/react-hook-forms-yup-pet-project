@@ -10,7 +10,6 @@ import { closeBtn, container } from '../../theme';
 const ModalWrap = props => {
   const { onClose, open, children, title } = props;
 
-  console.log({ props });
   return (
     <Modal
       open={open}

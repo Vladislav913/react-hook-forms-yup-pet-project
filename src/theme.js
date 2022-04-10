@@ -17,11 +17,6 @@ export const createdTheme = createTheme({
           fontSize: '14px',
           borderRadius: '10px',
           borderColor: '#CFD6DE',
-          input: {
-            //
-            // background: '#F9F9FA',
-            // borderRadius: '10px',
-          },
         },
       },
     },
