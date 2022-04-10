@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    background: #F9F9FA;
+    position: relative;
+}
+.footer {
+    padding: 40px;
+    border-top: 1px solid #EDEFF1;
+}
+
+.contained {
+    background-color: #6367F6;
+    color: #fff;
+}
+.wrap {
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 40px 0;
+}

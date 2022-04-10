@@ -1,0 +1,11 @@
+.label {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 4px;
+}
+
+.box {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
